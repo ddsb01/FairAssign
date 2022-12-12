@@ -20,7 +20,7 @@ Make sure the data directory structure is as follows
 ---
 
 ### Food Delivery 
-**Data**: To get the dataset, please follow the instructions given [here](what?)
+**Data**: To get the dataset, please follow the instructions given [here](what?).
 **Code**: Please follow the notebook 'food_dlvry.ipynb' in [./food-delivery](food-delivery) to reproduce the results for the food deliver setting.
 
 ---
