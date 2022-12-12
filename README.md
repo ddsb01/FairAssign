@@ -10,7 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 **Data**: Please get the Brazilian e-commerce dataset using the link - 
 Make sure that the data directory is structured as follows: 
 
-**Code**: Please follow the notebook 'ecomm.ipynb' to reproduce the results for the e-commerce setting. 
+**Code**: Please follow the notebook 'ecomm.ipynb' in ./e-commerce to reproduce the results for the e-commerce setting. 
 You can get the data at the link 
 Make sure the data directory structure is as follows 
 
@@ -18,7 +18,7 @@ Make sure the data directory structure is as follows
 
 ### Food Delivery 
 **Data**: To get the dataset, please follow the instructions given here -  
-**Code**: Please follow the notebook 'food_dlvry.ipynb' to reproduce the results for the food deliver setting.
+**Code**: Please follow the notebook 'food_dlvry.ipynb' in ./food-delivery to reproduce the results for the food deliver setting.
 
 ---
 
