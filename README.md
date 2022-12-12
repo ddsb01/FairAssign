@@ -5,7 +5,7 @@ This repository contains implementation of the FairAssign algorithm defined in o
 These instructions will get you a copy of the project up and running on your local mahcine.
 
 ### Pre-requisites
-The algorithms are implemented in Python 3 (Python 3.9)
+The algorithms are implemented in Python 3 (Python 3.9)     
 For solving the linear programs, the following LP Solvers will be needed: [Gurobi Optimizer](https://www.gurobi.com/downloads/) and [IBM Cplex](https://www.ibm.com/products/ilog-cplex-optimization-studio)
 
 ---
