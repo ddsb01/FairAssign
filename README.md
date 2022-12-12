@@ -15,12 +15,12 @@ For solving the linear programs, the following LP Solvers will be needed: [Gurob
 
 **Code**: Please follow the notebook 'ecomm.ipynb' in [./e-commerce](e-commerce) to reproduce the results for the e-commerce setting. 
 You can get the data at the link 
-Make sure the data directory structure is as follows 
 
 ---
 
 ### Food Delivery 
 **Data**: To get the dataset, please follow the instructions given [here](what?).
+
 **Code**: Please follow the notebook 'food_dlvry.ipynb' in [./food-delivery](food-delivery) to reproduce the results for the food deliver setting.
 
 ---
