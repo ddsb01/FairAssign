@@ -11,15 +11,15 @@ For solving the linear programs, the following LP Solvers will be needed: [Gurob
 ---
 
 ### E-commerce 
-**Data**: Please get the Brazilian e-commerce dataset using this [link](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce). Place the downloaded directory 'olist' in [./e-commerce](e-commerce).     
-**Code**: Please follow the notebook 'ecomm.ipynb' in [./e-commerce](e-commerce) to reproduce the results for the e-commerce setting. 
+**Data** : Please get the Brazilian e-commerce dataset using this [link](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce). Place the downloaded directory 'olist' in [./e-commerce](e-commerce).     
+**Code** : Please follow the notebook 'ecomm.ipynb' in [./e-commerce](e-commerce) to reproduce the results for the e-commerce setting. 
 You can get the data at the link 
 
 ---
 
 ### Food Delivery 
-**Data**: To get the dataset, please follow the instructions given [here](what?).   
-**Code**: Please follow the notebook 'food_dlvry.ipynb' in [./food-delivery](food-delivery) to reproduce the results for the food deliver setting.
+**Data** : To get the dataset, please follow the instructions given [here](what?).   
+**Code** : Please follow the notebook 'food_dlvry.ipynb' in [./food-delivery](food-delivery) to reproduce the results for the food deliver setting.
 
 ---
 
