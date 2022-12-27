@@ -11,7 +11,7 @@ For solving the linear programs, the following LP Solvers will be needed: [Gurob
 ---
 
 ### E-commerce 
-**Data** : Please download the Brazilian e-commerce dataset using this [link](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce). Place the downloaded directory named 'olist' in [./e-commerce](e-commerce).     
+**Data** : Please download the Brazilian e-commerce dataset using any of these links [link1](https://csciitd-my.sharepoint.com/personal/csy217543_iitd_ac_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcsy217543%5Fiitd%5Fac%5Fin%2FDocuments%2Fecomm%5Fdata), [link2](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce). Place the downloaded directory named 'olist' in [./e-commerce](e-commerce).     
 **Code** : Please follow the notebook 'ecomm.ipynb' present in [./e-commerce](e-commerce) to reproduce the results for the e-commerce setting. 
 
 ---
