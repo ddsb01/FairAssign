@@ -8,6 +8,13 @@ These instructions will get you a copy of the project up and running on your loc
 The algorithms are implemented in Python 3 (Python 3.9)     
 For solving the linear programs, the following LP Solvers will be needed: [Gurobi Optimizer](https://www.gurobi.com/downloads/) and [IBM Cplex](https://www.ibm.com/products/ilog-cplex-optimization-studio)
 
+### Installation 
+Setup a conda environment using the environment.yml file
+```bash
+conda env create -f environment.yml
+conda activate fair_assign
+```
+
 ---
 
 ### E-commerce 
