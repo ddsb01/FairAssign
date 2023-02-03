@@ -17,7 +17,7 @@ For solving the linear programs, the following LP Solvers will be needed: [Gurob
 ---
 
 ### Food Delivery 
-**Data** : To get the dataset, please follow the instructions given [here](what?).   
+**Data** : To get the data, please follow the instructions given [here](onedrive link?).   
 **Code** : Please follow the notebook 'food_dlvry.ipynb' present in [./food-delivery](food-delivery) to reproduce the results for the food delivery setting.
 
 ---
