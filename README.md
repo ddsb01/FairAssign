@@ -18,7 +18,7 @@ conda activate fair_assign
 ---
 
 ### E-commerce 
-**Data** : Please download the Brazilian e-commerce dataset using this [link](link-to-olist). Place the downloaded directory named 'olist' in [./e-commerce](e-commerce). On downloading, you will get a zip file named 'olist.zip'. Unzip 'olist.zip' to get the data directory named 'olist'. Please place the directory in ./ecommerce.
+**Data** : The data files relevant for assignment are present in ./e-commerce/data/. These files have been obtained from this [link](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce). 
 
 **Code** : Please follow the notebook 'ecomm.ipynb' present in [./e-commerce](e-commerce) to reproduce the results for the e-commerce setting. 
 
