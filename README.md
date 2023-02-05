@@ -25,7 +25,7 @@ conda activate fair_assign
 ---
 
 ### Food Delivery 
-**Data** : To get the data, please follow the instructions given [here](available_on_request). Upon downloading you will get a zip file 'data.zip'. Please unzip it to obtain the data directory 'data' and place it in ./food-delivery.
+**Data** : The food-delivery dataset is confidential. It is available on request followed by required procedure.
 
 **Code** : Please follow the notebook 'food_dlvry.ipynb' present in [./food-delivery](food-delivery) to reproduce the results for the food delivery setting.
 
