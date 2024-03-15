@@ -18,14 +18,14 @@ conda activate fair_assign
 ---
 
 ### E-commerce 
-**Data** : The data files relevant for assignment are present in ./e-commerce/data/. These files have been obtained from this [link](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce). 
+**Data** : The data files relevant for assignment are present in ./e-commerce/data/. These files have been obtained [here](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce). 
 
 **Code** : Please follow the notebook 'ecomm.ipynb' present in [./e-commerce](e-commerce) to reproduce the results for the e-commerce setting. 
 
 ---
 
 ### Food Delivery 
-**Data** : The food-delivery dataset is confidential. It is available on request followed by required procedure.
+**Data** : The food-delivery dataset is confidential. It is available on request.
 
 **Code** : Please follow the notebook 'food_dlvry.ipynb' present in [./food-delivery](food-delivery) to reproduce the results for the food delivery setting.
 
