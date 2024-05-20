@@ -269,6 +269,7 @@ def prepare_to_add_constraints(dataset, centres, upper_cap, lower_cap, P, C, con
   num_lb_ub_constraints = len(senses) - (num_probability_constraints + num_mincap_constraints + num_maxcap_constraints) 
   print("Number of lower and upper bound constraints for abs constraints:", num_lb_ub_constraints)
 
+  # The above constraint defines a converts introduces c for each |a-b| s.t. |a-b|>=c
 
   # Constraint type 5: Add fairness constraints in terms of C variables - trick to make mod constraints linear
   for _point1 in range(num_samples):
@@ -284,7 +285,7 @@ def prepare_to_add_constraints(dataset, centres, upper_cap, lower_cap, P, C, con
 
         for centre in range(num_centres):
           coefficients.append((eqn_id, int(C[_point1][_point2][centre]), 1))
-        # \sigma_k {C[u][v][1] + C[u][v][2] + ... + C[u][v][k]} \leq (d(u, v) * cons) 
+        # \sigma_k {C[u][v][1] + C[u][v][2] + ... + C[u][v][k]} \leq \sigma_k {|p_uk-p_vk|} \leq (d(u, v) * cons) 
         eqn_id += 1
 
   num_fairness_constraints = len(senses) - (num_probability_constraints + num_mincap_constraints + num_maxcap_constraints + num_lb_ub_constraints) 
