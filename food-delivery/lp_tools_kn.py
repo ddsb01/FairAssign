@@ -236,7 +236,7 @@ def prepare_to_add_constraints(dataset, centres, upper_cap, lower_cap, P, C, con
         if distance[_point1][_point2]>=fair_distance:
           continue
 
-        # Upper bound - P[i][k] - P[j][k] <= C[i][j][k]
+        # Upper bound : -(P[i][k] - P[j][k]) <= C[i][j][k] <--> (P[i][k] - P[j][k]) <= -C[i][j][k]
         rhs.append(0)
         senses.append("L")
         row_names.append("{eqn_id}_Upper_Bound_{pt1}_{pt2}_{centre}".format(
@@ -251,7 +251,7 @@ def prepare_to_add_constraints(dataset, centres, upper_cap, lower_cap, P, C, con
 
         eqn_id += 1
 
-        # Lower_bound - P[i][k] - P[j][k] >= -C[i][j][k] --> P[i][k] - P[j][k] + C[i][j][k] >= 0 
+        # Lower_bound : (P[i][k] - P[j][k]) >= C[i][j][k] --> P[i][k] - P[j][k] + C[i][j][k] >= 0 
         rhs.append(0)
         senses.append("G")
         row_names.append("{eqn_id}_Lower_bound_{pt1}_{pt2}_{centre}".format(
