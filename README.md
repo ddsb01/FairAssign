@@ -1,5 +1,5 @@
 # FairAssign
-This repository contains implementation of the FairAssign algorithm defined in our paper titled "Stochastically Fair Driver Assignment in Gig Delivery Platforms", 
+Codebase for our work titled ["FairAssign: Stochastically Fair Driver Assignment in Gig Delivery Platforms"] (https://dl.acm.org/doi/10.1145/3593013.3594040) (FAccT 2023)
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local mahcine.
